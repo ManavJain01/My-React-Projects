@@ -23,7 +23,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Users from './Mini Project/Dice Game/components/Main';
+import Users from './All Projects/MainFile/components/Index';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -39,6 +39,7 @@ root.render(
 reportWebVitals();
 */
 
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -49,9 +50,9 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Provider store={store}>
+  <React.StrictMode>
     <Users />
-  </Provider>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
