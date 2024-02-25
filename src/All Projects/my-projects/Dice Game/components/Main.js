@@ -9,7 +9,7 @@ function Main(){
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/My-React-Projects" element={<FrontPage />}></Route>
+          <Route path="/My-React-Projects/Main" element={<FrontPage />}></Route>
           <Route path="/Playarea" element={<Playarea />}></Route>
           <Route path="/Playarea/ShowRules" element={<ShowRules />}></Route>
           <Route path="/*" element={<Page404 />}></Route>
