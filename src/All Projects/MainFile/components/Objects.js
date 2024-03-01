@@ -1,21 +1,28 @@
+import DiceGame from '../Images/DiceGame.png'
+import foodyZone from '../Images/foody zone.png'
+import firebase from '../Images/firebase contact app.png'
+
 const object = [
   {
     Link:"/FrontPage",
-    Img:"../Images/DiceGame.png",
+    Img: DiceGame,
     p1:"Simple React Project",
-    p2:"Dice Game"
+    p2:"Dice Game",
+    id:"project1"
   },
   {
     Link:"/FoodyZone",
-    Img:"../Images/foody zone.png",
-    p1:"React Project with APIs",
-    p2:"Foody Zone"
+    Img: foodyZone,
+    p1:"React Project with API",
+    p2:"Foody Zone",
+    id:"project2"
   },
   {
     Link:"/Body",
-    Img:"../Images/firebase contact app.png",
+    Img: firebase,
     p1:"React Project with Firebase",
-    p2:"Firebase Contact App"
+    p2:"Firebase Contact App",
+    id:"project3"
   }
 ]
 
