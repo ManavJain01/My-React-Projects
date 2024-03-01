@@ -8,7 +8,7 @@ function Page404(){
         <span className="text-7xl text-gray-500">Page Not Found</span>
         <span className="text-lg text-gray-500">The Page you are looking for doesn't exist or an error occurred.
         Go back !</span>
-        <Link to="/FrontPage">Go To Home Page.</Link>
+        <Link to="/Body">Go To Home Page.</Link>
       </div>
     </>
   )
