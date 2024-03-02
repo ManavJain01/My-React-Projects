@@ -13,12 +13,12 @@ const object = [
   {
     Link:"/FoodyZone",
     Img: foodyZone,
-    p1:"React Project with API",
+    p1:"React Project with Responsive SearchBar",
     p2:"Foody Zone",
     id:"project2"
   },
   {
-    Link:"/Body",
+    Link:"/ContactApp",
     Img: firebase,
     p1:"React Project with Firebase",
     p2:"Firebase Contact App",

@@ -46,7 +46,7 @@ import './index.css';
 import App from './App';
 import Users from './All Projects/MainFile/components/Index';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter, createHashRouter, RouterProvider } from 'react-router-dom';
+import { HashRouter, createHashRouter, RouterProvider, BrowserRouter } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

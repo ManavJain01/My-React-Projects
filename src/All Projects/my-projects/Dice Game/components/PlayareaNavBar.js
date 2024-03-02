@@ -16,7 +16,7 @@ function PlayareaNavBar(props) {
           <section className="sm:fixed flex">
             {
               arr.map((data)=>
-                <Button text={data} square={'square'} functionS={()=>{props.setNumSelec(data)}} />
+                <Button key={data} text={data} square={'square'} functionS={()=>{props.setNumSelec(data)}} />
               )
             }
             

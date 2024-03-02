@@ -3,14 +3,21 @@ import {Route, Routes} from 'react-router-dom'
 //      * Main Page *
 import Body from './Body';
 
+//      * Portfolio *
+import Portfolio from '../../../Portfolio/components/Main';
+
+//      * Page Not Found *
+import Page404 from '../../my-projects/Dice Game/components/Page404'
+
 //      * Dice Game *
 import FrontPage from '../../my-projects/Dice Game/components/FrontPage'
 import Playarea from '../../my-projects/Dice Game/components/Playarea'
-import ShowRules from '../../my-projects/Dice Game/components/ShowRules'
-import Page404 from '../../my-projects/Dice Game/components/Page404'
 
 //      * Foody Zone *
 import FoodyZone from '../../my-projects/Foody Zone/components/Body'
+
+//      * Contact App *
+import ContactApp from '../../my-projects/Contact App/components/Body'
 
 function Index(){
   return(
@@ -18,16 +25,24 @@ function Index(){
       <div>
 
         <Routes>
+          {/* Main Page */}
           <Route path="/Body" element={<Body />}></Route>
+
+          {/* Portfolio */}
+          <Route path="/Portfolio" element={<Portfolio />}></Route>
  
-          {/* Dice Game */}
-          <Route path="/FrontPage" element={<FrontPage />}></Route>
-          <Route path="/Playarea" element={<Playarea />}></Route>
-          <Route path="/Playarea/ShowRules" element={<ShowRules />}></Route>
+          {/* Page Not Found */}
           <Route path="/*" element={<Page404 />}></Route>
+
+          {/* Dice Game */}
+          <Route path="FrontPage" element={<FrontPage />}></Route>
+          <Route path="FrontPage/Playarea" element={<Playarea />}></Route>
 
           {/* Foody Zone */}
           <Route path="/FoodyZone" element={<FoodyZone />}></Route>
+
+          {/* Contact App */}
+          <Route path="/ContactApp" element={<ContactApp />}></Route>
         </Routes>
 
       </div>

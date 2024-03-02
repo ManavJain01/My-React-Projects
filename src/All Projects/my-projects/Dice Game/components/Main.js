@@ -9,10 +9,9 @@ function Main(){
     <>
         {/* <Routes>
           <Route path="/My-React-Projects/Main" element={<FrontPage />}></Route>
-          <Route path="/My-React-Projects/FrontPage" element={<FrontPage />}></Route>
           <Route path="/My-React-Projects/DiceGame" element={<FrontPage />}></Route>
-          <Route path="/My-React-Projects/Playarea" element={<Playarea />}></Route>
-          <Route path="/My-React-Projects/Playarea/ShowRules" element={<ShowRules />}></Route>
+          <Route path="/My-React-Projects/FrontPage" element={<FrontPage />}></Route>
+          <Route path="/My-React-Projects/FrontPage/Playarea" element={<Playarea />}></Route>
           <Route path="/*" element={<Page404 />}></Route>
         </Routes> */}
     </>

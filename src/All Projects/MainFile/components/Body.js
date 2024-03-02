@@ -5,7 +5,7 @@ import Footer from './Footer'
 function Body(){
   return(
     <>
-    <div className="bg-[beige] font-[cursive]">
+    <div className="bg-[beige] font-[cursive] overflow-hidden overflow-x-scroll">
       <Header />
       <Main />
       <Footer />

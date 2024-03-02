@@ -1,16 +1,12 @@
-import DiceGame from '../Images/DiceGame.png'
-import foody from '../Images/foody zone.png'
-import firebase from '../Images/firebase contact app.png'
 import {Link} from 'react-router-dom'
 
-import object from './Objects'
 import Projects from './Projects'
 
 function Main() {
 
   return (
     <>
-      <div className="min-h-[60vh] bg-[beige] flex justify-start py-20 px-9">
+      <div className="min-h-[60vh] bg-[beige] flex justify-start py-20 sm:px-9">
         <div className="flex flex-wrap space-x-7 space-y-5">
           <Projects />
 

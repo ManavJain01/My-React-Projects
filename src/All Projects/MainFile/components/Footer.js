@@ -2,6 +2,7 @@ import github from '../Images/github-mark.png'
 import instagram from '../Images/instagram.png'
 import linkedin from '../Images/linkedin.png'
 
+import {Link} from 'react-router-dom'
 
 function Footer(){
   return(
@@ -11,7 +12,7 @@ function Footer(){
           <ul>
             <h1 className="text-3xl">Manav Jain</h1>
             <li>Currently a FrontEnd Developer</li>
-            <li className="text-2xl pt-3"><a>My Portfolio</a></li>
+            <li className="text-2xl pt-3"><Link to="/Portfolio">My Portfolio</Link></li>
           </ul>
 
           <ul className="px-10 flex flex-col space-y-2">
