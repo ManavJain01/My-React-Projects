@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-React-Projects/static/css/main.b4dada39.css",
-    "main.js": "/My-React-Projects/static/js/main.ae75160a.js",
+    "main.css": "/My-React-Projects/static/css/main.afde974c.css",
+    "main.js": "/My-React-Projects/static/js/main.893ae635.js",
     "static/js/592.b9222ce2.chunk.js": "/My-React-Projects/static/js/592.b9222ce2.chunk.js",
     "static/media/bg.png": "/My-React-Projects/static/media/bg.a06cffe74be737fb1a14.png",
     "static/media/foody zone.png": "/My-React-Projects/static/media/foody zone.7a619cfa3ba1bdc9ae4e.png",
@@ -21,17 +21,19 @@
     "static/media/dice_3.png": "/My-React-Projects/static/media/dice_3.e0b0f657546d70aa4a25.png",
     "static/media/firebase contact app.png": "/My-React-Projects/static/media/firebase contact app.8429707b8cac5ccecbd0.png",
     "static/media/search.png": "/My-React-Projects/static/media/search.f6630f53689884ef1260.png",
+    "static/media/user.png": "/My-React-Projects/static/media/user.61637315e740810e35de.png",
     "static/media/dice_2.png": "/My-React-Projects/static/media/dice_2.078a8c75a55e5be352bc.png",
     "static/media/dice_1.png": "/My-React-Projects/static/media/dice_1.988b89e3409995d4536b.png",
+    "static/media/bin.png": "/My-React-Projects/static/media/bin.586f8cf76e852fd54a4e.png",
     "static/media/firebase.svg": "/My-React-Projects/static/media/firebase.d6bbb383e6a6db07b460bf90dd0c3d3c.svg",
     "static/media/logo.svg": "/My-React-Projects/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/My-React-Projects/index.html",
-    "main.b4dada39.css.map": "/My-React-Projects/static/css/main.b4dada39.css.map",
-    "main.ae75160a.js.map": "/My-React-Projects/static/js/main.ae75160a.js.map",
+    "main.afde974c.css.map": "/My-React-Projects/static/css/main.afde974c.css.map",
+    "main.893ae635.js.map": "/My-React-Projects/static/js/main.893ae635.js.map",
     "592.b9222ce2.chunk.js.map": "/My-React-Projects/static/js/592.b9222ce2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4dada39.css",
-    "static/js/main.ae75160a.js"
+    "static/css/main.afde974c.css",
+    "static/js/main.893ae635.js"
   ]
 }
