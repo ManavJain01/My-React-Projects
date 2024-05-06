@@ -3,11 +3,8 @@ import {Route, Routes} from 'react-router-dom'
 //      * Main Page *
 import Body from './Body';
 
-//      * Portfolio *
-import Portfolio from '../../../Portfolio/components/Main';
-
 //      * Page Not Found *
-import Page404 from '../../my-projects/Dice Game/components/Page404'
+import Page404 from '../Page 404/Page404'
 
 //      * Dice Game *
 import FrontPage from '../../my-projects/Dice Game/components/FrontPage'
@@ -19,6 +16,16 @@ import FoodyZone from '../../my-projects/Foody Zone/components/Body'
 //      * Contact App *
 import ContactApp from '../../my-projects/Contact App/components/Body'
 
+//      * Crypto Dashboard *
+import CryptDashboard from '../../my-projects/crypto dashboard/pages/Dashboard/components/Body'
+
+//      * Redux Implementation *
+import TodoRedux from '../../my-projects/Todo with Redux/components/App'
+
+//      * OTP Authentication *
+import OtpAuth from '../../my-projects/OTP Authentication/components/OtpAuth'
+
+
 function Index(){
   return(
     <>
@@ -27,9 +34,6 @@ function Index(){
         <Routes>
           {/* Main Page */}
           <Route path="/Body" element={<Body />}></Route>
-
-          {/* Portfolio */}
-          <Route path="/Portfolio" element={<Portfolio />}></Route>
  
           {/* Page Not Found */}
           <Route path="/*" element={<Page404 />}></Route>
@@ -43,8 +47,17 @@ function Index(){
 
           {/* Contact App */}
           <Route path="/ContactApp" element={<ContactApp />}></Route>
-        </Routes>
+          
+          {/* Crypto Dashboard */}
+          <Route path="/CryptoDashboard" element={<CryptDashboard />}></Route>
+          
+          {/* Redux Implementation */}
+          <Route path="/Todo-with-redux" element={<TodoRedux />}></Route>
 
+          {/* OTP Authentication */}
+          <Route path="/Otp-Authentication" element={<OtpAuth />}></Route>
+        </Routes>
+        
       </div>
     </>
   )

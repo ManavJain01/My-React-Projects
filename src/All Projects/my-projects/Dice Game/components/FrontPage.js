@@ -1,12 +1,12 @@
 import Dice from "../Images/dices.png";
 import Button from './Button';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function FrontPage(){
   return(
     <>
       <div className="mt-5 sm:mt-32 flex justify-center items-center">
-        <img src={Dice} className="hidden sm:inline-block object-contain w-1/2"></img>
+        <img src={Dice} alt="dice" className="hidden sm:inline-block object-contain w-1/2"></img>
         <div className="relative">
           <h1 className="font-bold text-6xl whitespace-nowrap">DICE GAME</h1>
           <div className="pt-3 absolute top-16 right-0">

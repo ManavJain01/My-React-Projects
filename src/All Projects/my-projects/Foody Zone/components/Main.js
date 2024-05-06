@@ -1,4 +1,4 @@
-import {object} from './Objects'
+// import {object} from './Objects'
 
 import styled from "styled-components";
 
@@ -12,7 +12,7 @@ function Main({data}){
             data.map((value) => (
               <div key={value.name} id={value.name} className="flex w-[25rem] h-[12rem] min-w-[25rem] border-2 border-white rounded-3xl backdrop-blur-lg">
                 <section className="py-2">
-                  <img src={value.image} className="w-[28rem] min-w-[11rem]"></img>
+                  <img src={value.image} alt="food" className="w-[28rem] min-w-[11rem]"></img>
                 </section>
 
                 <section className="relative py-3 px-2">

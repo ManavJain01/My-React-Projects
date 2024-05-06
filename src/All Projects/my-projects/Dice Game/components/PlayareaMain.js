@@ -16,8 +16,8 @@ function PlayareaMain(props) {
   }
 
   function checkNumSelected() {
-    if (props.numSelec != 0) props.setShow1(false)
-    else if (props.numSelec == 0) props.setShow1(true)
+    if (props.numSelec !== 0) props.setShow1(false)
+    else if (props.numSelec === 0) props.setShow1(true)
   }
 
   function resetScore() {
@@ -35,7 +35,7 @@ function PlayareaMain(props) {
       setShow2(true);
     }
 
-    if (props.numSelec != 0) {
+    if (props.numSelec !== 0) {
       randomNumber = random(1, 7);
       setImage(randomNumber);
       setTimeout(winningStatus,1000);
@@ -68,7 +68,7 @@ function PlayareaMain(props) {
     <div className="flex justify-end">
       <div className="mt-1 sm:mt-10 flex flex-col items-center">
         <button onClick={()=>{gameStart()}}>
-          <img src={require(`../Images/dice_${image}.png`)} className="object-contain w-10 sm:w-56 mt-16 sm:mt-0" />
+          <img src={require(`../Images/dice_${image}.png`)} alt='dice_faces' className="object-contain w-10 sm:w-56 mt-16 sm:mt-0" />
         </button>
         <span className="my-2 font-semibold text-lg sm:text-2xl">Click on Dice to roll</span>
         <Button text={"Reset Score"} square={'reset'} functionS={resetScore} />

@@ -1,8 +1,7 @@
 import {object} from './Objects'
-import { useEffect } from 'react'
 
-function Header({data, setData, filteredData, setFilteredData, setSelectedBtn}){
-  const arr = ["All", "Breakfast", "Lunch", "Dinner"]
+function Header({data, setData, setFilteredData, setSelectedBtn}){
+  // const arr = ["All", "Breakfast", "Lunch", "Dinner"]
 
   const filterBtns = [
     {
@@ -24,7 +23,7 @@ function Header({data, setData, filteredData, setFilteredData, setSelectedBtn}){
   ]
 
   const filterFood = (type) => {
-    if(type == "all"){
+    if(type === "all"){
       setFilteredData(data);
       setSelectedBtn("all");
       return;
@@ -38,7 +37,7 @@ function Header({data, setData, filteredData, setFilteredData, setSelectedBtn}){
 
   const searchFood = (e) => {
     const searchValue = e.target.value;
-    if(searchValue == ""){
+    if(searchValue === ""){
       setData(data);
       setFilteredData(data);
     }
